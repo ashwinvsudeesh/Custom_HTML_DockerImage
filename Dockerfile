@@ -1,7 +1,5 @@
 FROM alpine
 
-RUN apt install tree
-
 COPY . /src
 
 WORKDIR /src
